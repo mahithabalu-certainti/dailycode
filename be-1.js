@@ -46,7 +46,3 @@ app.post("/login", (req, res) => {
 app.get("/users", (req, res) => {
   res.json(users);
 });
-
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-});
